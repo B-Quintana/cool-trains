@@ -18,7 +18,7 @@ let va =[
 
 export function Home() {
 	return (
-    </>
+    <>
 			<Navbar />
 			<Jumbotron />
 		<div className="card-group d-flex justify-content-center">
@@ -27,6 +27,7 @@ export function Home() {
 				))}
 			</div>
 		</>
-	);
-}
+    );
+                }
+
 
